@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  
+</body>
+
+</html><!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Yasmin Chuhiya</title>
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Hind+Siliguri:wght@700&display=swap" rel="stylesheet">
+
+<style>
+    /* ----- BODY ----- */
+    body {
+        margin: 0;
+        font-family: 'Hind Siliguri', sans-serif;
+        background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+        overflow-x: hidden;
+        font-weight: 700;
+        position: relative;
+    }
+
+    /* ----- H1 (Title) ----- */
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Baloo 2', cursive;
+        font-weight: 700;
+        font-size: 48px;
+        letter-spacing: 2px;
+        background: linear-gradient(to right, #ff6ec4, #7873f5);
+        -webkit-background-clip: text;
+        color: transparent;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+    }
+
+    /* ----- Cake ----- */
+    .cake-box {text-align: center; margin-top: 20px;}
+    .cake {
+        width: 220px;
+        animation: bounce 2s infinite ease-in-out;
+    }
+    @keyframes bounce {
+        0% {transform: translateY(0);}
+        50% {transform: translateY(-12px);}
+        100% {transform: translateY(0);}
+    }
+
+    /* ----- Card (Blur Removed) ----- */
+    .card {
+        width: 90%;
+        max-width: 480px;
+        margin: 20px auto;
+        background: rgba(255,255,255,0.25);
+        border-radius: 22px;
+        padding: 20px;
+        /* backdrop-filter removed */
+        box-shadow: 0 0 35px rgba(0,0,0,0.4);
+        border: 3px solid gold;
+    }
+
+    /* ----- Birthday Message ----- */
+    .msg {
+        font-family: 'Baloo 2', cursive;
+        font-weight: 700;
+        text-align: center;
+        font-size: 23px;
+        line-height: 34px;
+        background: linear-gradient(to right, #ff97ff, #fcd9ff);
+        -webkit-background-clip: text;
+        color: transparent;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        padding: 5px;
+    }
+
+    /* ----- Slideshow ----- */
+    .slideshow {
+        max-width: 350px;
+        margin: 35px auto;
+        border-radius: 14px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+    .slides {display: none; width: 100%;}
+
+    /* ----- SQUARE PHOTOS ----- */
+    .photos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 17px;
+        margin-top: 20px;
+    }
+    .photos img {
+        width: 120px;
+        height: 120px;
+        border-radius: 12px;
+        object-fit: cover;
+        border: 4px solid white;
+        box-shadow: 0 0 18px rgba(0,0,0,0.5);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .photos img:active {
+        transform: scale(1.15) rotate(3deg);
+        box-shadow: 0 0 30px gold;
+    }
+
+    /* ----- Shayari + Fancy Text ----- */
+    .shayari-box {
+        margin-top: 25px;
+        text-align: center;
+    }
+    .shayari-line {
+        font-family: 'Baloo 2', cursive;
+        font-size: 25px;
+        font-weight: 700;
+        margin: 10px 0;
+        background: linear-gradient(to right, #ff6ec4, #7873f5);
+        -webkit-background-clip: text;
+        color: transparent;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    }
+
+    /* ----- Music Button ----- */
+    .music {text-align: center; margin-top: 20px;}
+    button {
+        padding: 12px 25px;
+        background: #ff4f70;
+        color: white;
+        border: none;
+        border-radius: 12px;
+        font-size: 20px;
+        cursor: pointer;
+        font-weight: 700;
+        font-family: 'Baloo 2', cursive;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    }
+
+    /* ----- Fireworks ----- */
+    .firework {
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        background: gold;
+        border-radius: 50%;
+        pointer-events: none;
+        animation: explode 1s ease-out forwards;
+    }
+    @keyframes explode {
+        0% {transform: scale(1);}
+        50% {transform: scale(3);}
+        100% {opacity:0; transform:scale(0);}
+    }
+
+    /* ----- Floating Emojis ----- */
+    .emoji {
+        position: absolute;
+        font-size: 28px;
+        animation: floatEmoji 6s linear infinite;
+    }
+    @keyframes floatEmoji {
+        0% {transform: translateY(0);}
+        100% {transform: translateY(-800px);}
+    }
+
+</style>
+</head>
+<body>
+
+<h1>🎉 Happy Birthday Yasmin Chuhiya 🎉</h1>
+
+<div class="cake-box"><img src="/pexels-roacunha-2531546.jpg" class="cake"></div>
+
+<div class="card">
+
+    <div class="msg">
+        आज का दिन बेहद खास है,  
+        क्योंकि हमारी प्यारी, शरारती  
+        <b>Yasmin Chuhiya</b> का जन्मदिन है! 🎉💖  
+        तुम्हारी हर मुस्कान एक दुआ है,  
+        तुम्हारी हर खुशी हमारी दुआ है।  
+    </div>
+
+    <div class="slideshow">
+        <img class="slides" src="/IMG-20251118-WA0011.jpg">
+        <img class="slides" src="/IMG-20251118-WA0017.jpg">
+        <img class="slides" src="/IMG-20251118-WA0018.jpg">
+        <img class="slides" src="/IMG-20251118-WA0012.jpg">
+        <img class="slides" src="/IMG-20251118-WA0013.jpg">
+        <img class="slides" src="/IMG-20251118-WA0016.jpg">
+        <img class="slides" src="s7.jpg">
+        <img class="slides" src="s8.jpg">
+        <img class="slides" src="s9.jpg">
+        <img class="slides" src="s10.jpg">
+    </div>
+
+    <div class="photos">
+        <img src="/IMG-20251118-WA0018.jpg">
+        <img src="/IMG-20251118-WA0016.jpg">
+        <img src="/IMG-20251118-WA0017.jpg">
+        <img src="/IMG-20251118-WA0011.jpg">
+        <img src="/IMG-20251118-WA0011.jpg">
+        <img src="/IMG-20251118-WA0012.jpg">
+        <img src="/IMG-20251118-WA0013.jpg">
+    </div>
+
+    <!-- Shayari -->
+    <div class="shayari-box">
+        <div class="shayari-line">💖 तेरी मुस्कान में ही मेरी दुनिया बसती है… 💖</div>
+        <div class="shayari-line">✨ आज का दिन तुझपे लाखों दुआएँ बरसाए… ✨</div>
+        <div class="shayari-line">🎉 Happy Birthday Yasmin Chuhiya 🎉</div>
+    </div>
+
+    <div class="music">
+        <button onclick="playMusic()">🎵 गाना चलाओ</button>
+    </div>
+
+    <audio id="bgmusic" src="/happy-birthday-song-437858.mp3"></audio>
+</div>
+
+<!-- Floating Emojis -->
+<div class="emoji" style="left:10%;animation-delay:0s;">💖</div>
+<div class="emoji" style="left:30%;animation-delay:2s;">🎉</div>
+<div class="emoji" style="left:50%;animation-delay:1s;">✨</div>
+<div class="emoji" style="left:70%;animation-delay:3s;">💖</div>
+<div class="emoji" style="left:90%;animation-delay:1.5s;">🎉</div>
+
+<script>
+/* ----- Slideshow ----- */
+let slideIndex=0;
+slideShow();
+function slideShow(){
+    let s=document.getElementsByClassName("slides");
+    for(let i=0;i<s.length;i++) s[i].style.display="none";
+    slideIndex++;
+    if(slideIndex>s.length) slideIndex=1;
+    s[slideIndex-1].style.display="block";
+    setTimeout(slideShow, 2000);
+}
+
+/* ----- Music Play ----- */
+function playMusic(){
+    document.getElementById("bgmusic").play();
+}
+
+/* ----- Fireworks on Click ----- */
+document.body.addEventListener('click', function(e){
+    let fw = document.createElement('div');
+    fw.className='firework';
+    fw.style.left = e.pageX+'px';
+    fw.style.top = e.pageY+'px';
+    document.body.appendChild(fw);
+    setTimeout(()=>{fw.remove();},1000);
+});
+</script>
+
+</body>
+</html>
